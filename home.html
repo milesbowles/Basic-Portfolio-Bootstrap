@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style-bootstrap.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Miles Bowles</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="about" class="container-fluid">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-transparent" >
+            <div class="panel-heading">
+                <h1>About</h1>
+            </div>
+            <div class="panel-body">
+
+                <!-- Left-aligned -->
+                <div class="media">
+                    <div class="media-left">
+                        <img src="assets/images/MilesBowles-Profile-Picture.jpg" class="media-object" style="width:300px">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Miles Bowles</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad cumque delectus ex iusto officia porro, provident quod recusandae repellat! Alias beatae dolore doloribus ea eaque facilis praesentium sed veritatis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-sm-offset-2">
+            <h1>Portfolio</h1>
+        </div>
+    </div>
+    
+    <br><br><br>
+
+    <div class="row">
+        <div class="col-sm-2 col-sm-offset-2">
+            <div class="thumbnail">
+                <a href="assets/images/MilesBowles-Copyright-Image1.jpg">
+                    <img src="assets/images/MilesBowles-Copyright-Image1.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="/w3images/nature.jpg">
+                    <img src="assets/images/MilesBowles-Copyright-Image2.jpg" alt="Nature" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="/w3images/fjords.jpg">
+                    <img src="assets/images/MilesBowles-Copyright-Image3.jpg" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <a href="/w3images/fjords.jpg">
+                    <img src="assets/images/MilesBowles-Copyright-Image5.jpg" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contact" class="container-fluid">
+    <!--Contact form-->
+    <div class="col-md-6 col-md-offset-2">
+        <div class="panel panel-transparent" >
+            <div class="panel-body">
+                <h1>About</h1>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Message</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="panel panel-transparent">
+            <div class="panel-body">
+                <h1>Contact</h1>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img class="aside" src="assets/images/linkedin-icon.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img class="aside" src="assets/images/stackoverflow-icon.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img class="aside" src="assets/images/github-icon.png" alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

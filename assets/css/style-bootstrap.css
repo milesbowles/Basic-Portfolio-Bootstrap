@@ -1,8 +1,53 @@
-img.profile {
-    height: 30%;
-    width: 30%;
+body {
+    margin: 0;
+    background: url(../images/blurred-background.jpg);
+    position: relative;
 }
 
-img.aside {
-    float: right;
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input.form-control {
+    background-color: rgba(46, 51, 56, 0.3)!important;
+}
+
+textarea.form-control {
+    background-color: rgba(46, 51, 56, 0.3)!important;
+}
+
+div.thumbnail {
+    background-color: rgba(33, 33, 40, 0.3);
+}
+
+#about {margin-top:0; padding-top:100px; height: 500px;}
+#portfolio {padding-top:100px; height: 800px;background-color: rgba(13, 13, 20, 0.6)}
+#contact {padding-top:100px; height: 700px;}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(17, 17, 33, 0.3);
+}
+
+.panel-transparent .panel-body{
+    background: rgba(17, 17, 33, 0.3);
 }
