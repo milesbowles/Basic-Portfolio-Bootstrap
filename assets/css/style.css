@@ -1,0 +1,299 @@
+/*Content*/
+div.container {
+    margin-top: 0;
+    width: 100%;
+    padding: 50px;
+    display: inline;
+}
+
+hr.horizontal {
+    background-color: lightgrey;
+    height: 2px;
+    border: 0;
+    box-shadow: 0 3px 3px -5px #8c8b8b inset;
+}
+
+body {
+    background-color: #dddddd;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+/*Header & Nav*/
+nav {
+    float: right;
+    margin-top: -40px;
+    margin-right: 220px;
+    display: inline;
+}
+
+a {
+    color: grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+hr.vertical {
+    background-color: lightgrey;
+    height: 20px;
+    display: inline;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header {
+    background-color: #4aaaa5;
+    width: 260px;
+    height: 80px;
+    margin-left: 10%;
+}
+
+div.header {
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+h1.header {
+    color: white;
+    width: 260px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+
+
+/*Section & Article*/
+article {
+    display: inline-block;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /*float: right;*/
+}
+
+div.section {
+    height: 350px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+div.section-gallery {
+    height: 580px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 140px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+div.section-contact {
+    height: 420px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 140px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+h1.article {
+    color: #4aaaa5;
+}
+
+img.profile {
+    height: 40%;
+    width: 30%;
+}
+
+
+
+/*Aside Contact*/
+aside {
+    text-align: center;
+}
+
+div.aside {
+    height: 150px;
+    width: 270px;
+    padding: 22px;
+    margin-top: -394px;
+    margin-left: 65%;
+    margin-bottom: 28%;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+    position: absolute;
+
+}
+
+div.aside-gallery {
+    height: 150px;
+    width: 270px;
+    padding: 22px;
+    margin-top: -774px;
+    margin-left: 1000px;
+    margin-bottom: 500px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+    position: absolute;
+}
+
+div.aside-contact {
+    height: 150px;
+    width: 270px;
+    padding: 22px;
+    margin-top: -604px;
+    margin-left: 65%;
+    margin-bottom: 500px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+h1.aside {
+    color: #4aaaa5;
+    height: 30px;
+}
+
+div.icons {
+    position: inherit;
+}
+
+img.icon {
+    padding: 5px;
+    margin-top: 10px;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+/*Footer*/
+footer {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+div.footer {
+    width: 100%;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    margin-top: -2%;
+    height: 90px;
+}
+
+
+
+/*Gallery */
+div.gallery {
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 0px 10px 20px grey;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    margin-top: -10px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+
+
+/*Contact form*/
+form {
+    color: grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+input[type=textarea], select {
+    height: 100px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
